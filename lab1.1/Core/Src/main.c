@@ -88,6 +88,10 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
+// TODO EX1
+  HAL_GPIO_WritePin(GPIOB, LED_1_Pin, SET);
+  HAL_GPIO_WritePin(GPIOB, LED_1_Pin, RESET);
+  HAL_Delay(1000);
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
